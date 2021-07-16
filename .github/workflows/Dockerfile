@@ -1,4 +1,4 @@
-ROM golang:1.8-alpine
+FROM golang:1.8-alpine
 
 WORKDIR /go/src/basic-go-server
 COPY . .
