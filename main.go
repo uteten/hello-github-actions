@@ -18,7 +18,7 @@ func getLocalIP() net.IP {
 }
 
 func hello(writer http.ResponseWriter, req *http.Request) {
-	io.WriteString(writer, "Hello, world-debug!\n")
+	io.WriteString(writer, "Hello, world-kaihen!\n")
 }
 
 func main() {
